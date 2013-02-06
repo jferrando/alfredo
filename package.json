@@ -1,0 +1,21 @@
+{
+  "name": "alfredo",
+  "version": "0.0.0",
+  "description": "pet project to learn TDD and Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jferrando/alfredo.git"
+  },
+  "keywords": [
+    "pet",
+    "project",
+    "node",
+    "tdd"
+  ],
+  "author": "Jorge Ferrando",
+  "license": "BSD"
+}

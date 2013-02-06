@@ -1,21 +1,12 @@
 {
-  "name": "alfredo",
-  "version": "0.0.0",
-  "description": "pet project to learn TDD and Node.js",
-  "main": "index.js",
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "test": "make test"
+    "start": "node app"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jferrando/alfredo.git"
-  },
-  "keywords": [
-    "pet",
-    "project",
-    "node",
-    "tdd"
-  ],
-  "author": "Jorge Ferrando",
-  "license": "BSD"
+  "dependencies": {
+    "express": "3.1.0",
+    "jade": "*"
+  }
 }

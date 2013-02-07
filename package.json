@@ -11,6 +11,8 @@
   },
   "devDependencies": {
     "should": "~1.2.1",
-    "debug": "~0.7.0"
+    "debug": "~0.7.0",
+    "supertest": "~0.5.1",
+    "zombie": "~1.4.1"
   }
 }

@@ -1,3 +1,6 @@
+var videos = require('../lib/video-api');
+
 exports.index = function(req, res){
-  res.render('index', { title: 'Express' });
+    var items = videos.getVideos();
+    res.render('index', { title: 'Alfredo', videos: items });
 };

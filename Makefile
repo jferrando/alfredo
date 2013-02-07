@@ -2,7 +2,7 @@ REPORTER = spec
 default: @
 
 test:
-	./node_modules/mocha/bin/mocha --reporter $(REPORTER) --timeout 390000
+	@NODE_ENV=test && ./node_modules/mocha/bin/mocha --reporter $(REPORTER) --timeout 390000
 
 test-cov: lib-cov
 	@RADAGAST_COV=1 $(MAKE) test REPORTER=html-cov > coverage.html

@@ -1,4 +1,4 @@
-var videos = require('../lib/video-api');
+var videos = require('../lib/video-api')();
 
 exports.video = function(req, res){
     var id = req.params.id,

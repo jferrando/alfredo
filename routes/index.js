@@ -1,4 +1,4 @@
-var videos = require('../lib/video-api');
+var videos = require('../lib/video-api')();
 
 exports.index = function(req, res){
     var items = videos.getVideos();
